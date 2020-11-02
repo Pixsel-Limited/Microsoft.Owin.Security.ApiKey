@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Microsoft.Owin.Security.ApiKey</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Kenny Munro based on the work of GoBrightBV</Authors>
+    <Company>Pixsel Limited</Company>
+    <Description>DotNet Standard version of Microsoft.Owin.Security.ApiKey by GoBrightBv
+Forked from:  https://github.com/GoBrightBV/Microsoft.Owin.Security.ApiKey</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Pixsel-Limited/Microsoft.Owin.Security.ApiKey</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Pixsel-Limited/Microsoft.Owin.Security.ApiKey</RepositoryUrl>
+    <PackageId>Pixsel.Owin.Security.ApiKey.Standard</PackageId>
+    <Product>Pixsel.Owin.Security.ApiKey.Standard</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Owin" Version="4.1.1" />
+    <PackageReference Include="Microsoft.Owin.Security" Version="4.1.1" />
+    <PackageReference Include="Owin" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
